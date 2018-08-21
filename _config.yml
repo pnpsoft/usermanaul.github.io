@@ -20,9 +20,18 @@ kramdown:
 sass:
   style: compressed
 
+remote_theme : yizeng/jekyll-theme-simple-texture
+
+#site settings
+locale : "en-US"
+title : "Site Title"
+title_separator : "-"
+name : "jillian"
+description : "user Manual"
+
 # Site Data
-url: # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: # the subpath of your site, e.g. /blog
+url: "usermanual.github.io"
+baseurl: ""
 title: Simple Texture
 description: "A gem-based responsive simple texture styled Jekyll theme."
 keywords: 'jekyll,theme,gem-based,blog'
@@ -67,4 +76,5 @@ paths:
   categories: /blog/categories/
   tags: /blog/tags/
 
-remote_theme : yizeng/jekyll-theme-simple-texture
+
+
